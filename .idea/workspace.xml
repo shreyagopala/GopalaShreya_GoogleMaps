@@ -8,23 +8,37 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="32" />
+    <option name="x" value="20" />
+    <option name="y" value="31" />
     <option name="width" value="1260" />
     <option name="height" value="676" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GopalaShreya_GoogleMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GopalaShreya_GoogleMaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -57,7 +71,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="32" width="1260" height="676" extended-state="0" />
+    <frame x="20" y="31" width="1260" height="676" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3292978" />
@@ -75,5 +89,11 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
     </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MapsApp/app/app.iml" />
+    <entry file="file://$PROJECT_DIR$/MapsApp/MapsApp.iml" />
+    <entry file="file://$PROJECT_DIR$/MapsApp/app/src/main/java/com/example/mapsapp/MapsActivity.java" />
+    <entry file="file://$PROJECT_DIR$/MapsApp/app/src/main/AndroidManifest.xml" />
   </component>
 </project>
