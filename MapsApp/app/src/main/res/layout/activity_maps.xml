@@ -13,16 +13,33 @@ android:orientation="vertical">
 
     <Button
         android:id="@+id/ViewButton"
-        android:layout_width="match_parent"
+        android:layout_width="114dp"
         android:layout_height="wrap_content"
         android:onClick="changeView"
         android:text="View" />
+
+    <Button
+        android:id="@+id/TrackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="trackMyLocation"
+        android:text="Track" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="clearMarkers"
+        android:text="Clear" />
+
 </LinearLayout>
 <!-- This is for the map -->
-<fragment
-    android:id="@+id/map"
-    android:name="com.google.android.gms.maps.SupportMapFragment"
-    android:layout_width="388dp"
-    android:layout_height="469dp"
-    tools:context=".MapsActivity" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="388dp"
+        android:layout_height="501dp"
+        tools:context=".MapsActivity" />
 </LinearLayout>
